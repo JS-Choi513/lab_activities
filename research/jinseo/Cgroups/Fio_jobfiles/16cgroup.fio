@@ -1,0 +1,114 @@
+#############################################################
+#                   test environment 			    #
+#							    #
+# cpu		Intel® Core i5-6300HQ @ 2.3GHz, 4core	    #
+# NVMe SSD​+HDD​	SAMSUNG PM-951 128GB PCIe3.0x4 (32GT/s)​​	    #
+#		Western Digital wd1 500GB SATA​		    #
+# OS		​​Ubunbtu 16.04, Linux Kernel 4.15.0​​	    #
+# I/O scheduler bfq					    #
+#							    #
+# 1000:							    #
+# 1000:500						    #
+# 1000:500:250						    #
+# 1000:750:500:250					    #
+# 1000:800:600:400:200					    #
+# 1000:832:666:500:334:166				    #			      #							    #
+#############################################################
+
+
+[global]
+bs=4k
+directory=/media/js/testbed
+iodepth=32
+ioengine=libaio
+filename=/dev/nvme0n1
+group_reporting=1
+numjobs=1
+direct=1
+;time_based
+;runtime=30
+cgroup_nodelete=1
+size=10G
+rw=randrw
+
+[GroupA]
+cgroup=GroupA
+;cgroup_weight=500
+filename=test_group2
+
+[GroupB]
+cgroup=GroupB
+;cgroup_weight=500
+filename=test_group2
+
+[GroupC]
+cgroup=GroupC
+;cgroup_weight=250
+filename=test_group3
+
+[GroupD]
+cgroup=GroupD
+;cgroup_weight=250
+filename=test_group4
+
+
+[GroupE]
+cgroup=GroupE
+;cgroup_weight=125
+filename=test_group5
+
+[GroupF]
+cgroup=GroupF
+;cgroup_weight=1000
+filename=test_group6
+
+[GroupG]
+cgroup=GroupG
+;cgroup_weight=1000
+filename=test_group7
+
+[GroupH]
+cgroup=GroupH
+;cgroup_weight=1000
+filename=test_group8
+
+[GroupI]
+cgroup=GroupI
+;cgroup_weight=500
+filename=test_group9
+
+[GroupJ]
+cgroup=GroupJ
+;cgroup_weight=500
+filename=test_group10
+
+[GroupK]
+cgroup=GroupK
+;cgroup_weight=250
+filename=test_group11
+
+[GroupL]
+cgroup=GroupL
+;cgroup_weight=250
+filename=test_group12
+
+[GroupM]
+cgroup=GroupM
+;cgroup_weight=125
+filename=test_group13
+
+[GroupN]
+cgroup=GroupN
+;cgroup_weight=1000
+filename=test_group14
+
+[GroupO]
+cgroup=GroupO
+;cgroup_weight=1000
+filename=test_group15
+
+[GroupP]
+cgroup=GroupP
+;cgroup_weight=1000
+filename=test_group16
+

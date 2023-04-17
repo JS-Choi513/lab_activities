@@ -1,0 +1,15 @@
+[global]
+bs=4k
+iodepth=32
+ioengine=libaio
+numjobs=1
+direct=1
+time_based
+runtime=60
+cgroup_nodelete=1
+
+[GroupA]
+size=5G
+cgroup=GroupA
+filename=test_group
+rw=read

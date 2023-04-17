@@ -1,0 +1,40 @@
+#############################################################
+#                   test environment 			    #
+#							    #
+# cpu		Intel® Core i5-6300HQ @ 2.3GHz, 4core	    #
+# NVMe SSD​+HDD​	SAMSUNG PM-951 128GB PCIe3.0x4 (32GT/s)​​	    #
+#		Western Digital wd1 500GB SATA​		    #
+# OS		​​Ubunbtu 16.04, Linux Kernel 4.15.0​​	    #
+# I/O scheduler bfq					    #
+#							    #
+# 1000:							    #
+# 1000:500						    #
+# 1000:500:250						    #
+# 1000:750:500:250					    #
+# 1000:800:600:400:200					    #
+# 1000:832:666:500:334:166				    #			      #							    #
+#############################################################
+
+
+[global]
+bs=4k
+directory=/media/js/testbed
+iodepth=32
+ioengine=libaio
+filename=/dev/nvme0n1
+group_reporting=1
+numjobs=16
+direct=1
+;time_based
+;runtime=30
+cgroup_nodelete=1
+size=10G
+rw=randrw
+
+[GroupA]
+cgroup=GroupA
+;cgroup_weight=500
+filename=test_group2
+
+
+

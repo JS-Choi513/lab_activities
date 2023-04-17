@@ -1,0 +1,26 @@
+2021-07-06 11:57:02.643798: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1418] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 2281 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1650, pci bus id: 0000:01:00.0, compute capability: 7.5)
+1 Physical GPUs, 1 Logical GPUs
+4.724012851715088
+2021-07-06 11:57:07.373493: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 3386880000 exceeds 10% of free system memory.
+2021-07-06 11:57:25.105503: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 564480000 exceeds 10% of free system memory.
+2021-07-06 11:57:30.583193: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 3386880000 exceeds 10% of free system memory.
+2021-07-06 11:57:41.070377: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-07-06 11:57:41.162590: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 3000000000 Hz
+2021-07-06 11:57:41.465177: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudnn.so.8
+2021-07-06 11:57:42.730249: I tensorflow/stream_executor/cuda/cuda_dnn.cc:359] Loaded cuDNN version 8200
+2021-07-06 11:57:44.277092: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublas.so.11
+2021-07-06 11:57:45.630908: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublasLt.so.11
+2021-07-06 11:58:40.078277: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 564480000 exceeds 10% of free system memory.
+에포크: 1, 손실: 0.026581335812807083, 정확도: 99.1987075805664, 테스트 손실: 0.06989359855651855, 테스트 정확도: 98.5
+2021-07-06 11:58:44.999373: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 3386880000 exceeds 10% of free system memory.
+에포크: 2, 손실: 0.01456338632851839, 정확도: 99.55907440185547, 테스트 손실: 0.08266062289476395, 테스트 정확도: 98.5
+에포크: 3, 손실: 0.010248139500617981, 정확도: 99.68956756591797, 테스트 손실: 0.09475724399089813, 테스트 정확도: 98.4000015258789
+에포크: 4, 손실: 0.007941443473100662, 정확도: 99.759765625, 테스트 손실: 0.10556836426258087, 테스트 정확도: 98.40750122070312
+에포크: 5, 손실: 0.006500792223960161, 정확도: 99.80415344238281, 테스트 손실: 0.11257125437259674, 테스트 정확도: 98.48600006103516
+에포크: 6, 손실: 0.005600504111498594, 정확도: 99.83181762695312, 테스트 손실: 0.12749196588993073, 테스트 정확도: 98.49500274658203
+에포크: 7, 손실: 0.004873491823673248, 정확도: 99.85415649414062, 테스트 손실: 0.13524429500102997, 테스트 정확도: 98.51428985595703
+에포크: 8, 손실: 0.004264305345714092, 정확도: 99.87238311767578, 테스트 손실: 0.143478125333786, 테스트 정확도: 98.52999877929688
+에포크: 9, 손실: 0.0037904935888946056, 정확도: 99.88656616210938, 테스트 손실: 0.14971333742141724, 테스트 정확도: 98.54110717773438
+에포크: 10, 손실: 0.0034114441368728876, 정확도: 99.89791107177734, 테스트 손실: 0.15435992181301117, 테스트 정확도: 98.54900360107422
+Execution time
+659.2029292583466

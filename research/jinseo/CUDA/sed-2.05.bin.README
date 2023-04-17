@@ -1,0 +1,9 @@
+When building older versions of gcc (2.7 and perhaps some early 2.8)
+on a hppa*-*-hpux10 platform, the `fixincludes' step (which involves
+running a sed script) fails because of a bug in the vendor's
+implementation of sed.  The workaround is to install GNU sed before
+building gcc.  The file sed-2.05.bin.hpux10 is a precompiled binary
+for that platform.
+
+However, newer versions of gcc are believed to properly deal with the
+broken sed, so this shouldn't be necessary anymore.

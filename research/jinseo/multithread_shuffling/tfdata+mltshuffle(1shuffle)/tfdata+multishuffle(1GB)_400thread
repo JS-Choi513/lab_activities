@@ -1,0 +1,29 @@
+2021-07-06 11:32:39.625972: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1418] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 2283 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1650, pci bus id: 0000:01:00.0, compute capability: 7.5)
+1 Physical GPUs, 1 Logical GPUs
+shuffle time 2.3169431686401367
+2.3181116580963135
+batching_img (540000, 28, 28, 1)
+batching_lab (540000,)
+2021-07-06 11:32:41.954339: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 3386880000 exceeds 10% of free system memory.
+2021-07-06 11:32:59.007398: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 564480000 exceeds 10% of free system memory.
+2021-07-06 11:33:05.505277: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 3386880000 exceeds 10% of free system memory.
+2021-07-06 11:33:20.991926: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-07-06 11:33:21.070650: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 3000000000 Hz
+2021-07-06 11:33:21.309684: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudnn.so.8
+2021-07-06 11:33:22.522918: I tensorflow/stream_executor/cuda/cuda_dnn.cc:359] Loaded cuDNN version 8200
+2021-07-06 11:33:24.102432: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublas.so.11
+2021-07-06 11:33:25.286598: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublasLt.so.11
+2021-07-06 11:34:19.405700: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 564480000 exceeds 10% of free system memory.
+에포크: 1, 손실: 0.02720680832862854, 정확도: 99.16814422607422, 테스트 손실: 0.06919484585523605, 테스트 정확도: 98.58000183105469
+2021-07-06 11:34:24.695144: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 3386880000 exceeds 10% of free system memory.
+에포크: 2, 손실: 0.014951634220778942, 정확도: 99.54203796386719, 테스트 손실: 0.08759874105453491, 테스트 정확도: 98.5
+에포크: 3, 손실: 0.01051216572523117, 정확도: 99.6774673461914, 테스트 손실: 0.1028190478682518, 테스트 정확도: 98.4566650390625
+에포크: 4, 손실: 0.00811774842441082, 정확도: 99.751708984375, 테스트 손실: 0.11212065070867538, 테스트 정확도: 98.50250244140625
+에포크: 5, 손실: 0.00669932272285223, 정확도: 99.79585266113281, 테스트 손실: 0.11932743340730667, 테스트 정확도: 98.47599792480469
+에포크: 6, 손실: 0.005682468414306641, 정확도: 99.82728576660156, 테스트 손실: 0.13108302652835846, 테스트 정확도: 98.45832824707031
+에포크: 7, 손실: 0.004896277561783791, 정확도: 99.851318359375, 테스트 손실: 0.1377580463886261, 테스트 정확도: 98.47571563720703
+에포크: 8, 손실: 0.00428424309939146, 정확도: 99.86990356445312, 테스트 손실: 0.14544396102428436, 테스트 정확도: 98.49749755859375
+에포크: 9, 손실: 0.0038082159589976072, 정확도: 99.88436126708984, 테스트 손실: 0.1511373668909073, 테스트 정확도: 98.51667022705078
+에포크: 10, 손실: 0.0034273944329470396, 정확도: 99.89592742919922, 테스트 손실: 0.15568852424621582, 테스트 정확도: 98.52999877929688
+Execution time
+633.6485252380371

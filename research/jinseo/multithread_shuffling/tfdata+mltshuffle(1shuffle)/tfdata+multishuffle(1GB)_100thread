@@ -1,0 +1,30 @@
+2021-07-06 11:07:25.062111: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-07-06 11:07:25.063153: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1418] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 2274 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1650, pci bus id: 0000:01:00.0, compute capability: 7.5)
+1 Physical GPUs, 1 Logical GPUs
+shuffle time 2.8129308223724365
+2.8143322467803955
+batching_img (540000, 28, 28, 1)
+batching_lab (540000,)
+2021-07-06 11:07:27.898499: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 3386880000 exceeds 10% of free system memory.
+2021-07-06 11:07:47.197947: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 3386880000 exceeds 10% of free system memory.
+2021-07-06 11:07:58.631582: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-07-06 11:07:58.710848: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 3000000000 Hz
+2021-07-06 11:07:59.025757: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudnn.so.8
+2021-07-06 11:08:00.003694: I tensorflow/stream_executor/cuda/cuda_dnn.cc:359] Loaded cuDNN version 8200
+2021-07-06 11:08:01.808977: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublas.so.11
+2021-07-06 11:08:03.170734: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublasLt.so.11
+2021-07-06 11:09:00.017475: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 564480000 exceeds 10% of free system memory.
+에포크: 1, 손실: 0.02484748512506485, 정확도: 99.25370025634766, 테스트 손실: 0.07626190036535263, 테스트 정확도: 98.20999908447266
+2021-07-06 11:09:07.955514: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 3386880000 exceeds 10% of free system memory.
+2021-07-06 11:10:11.348221: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 564480000 exceeds 10% of free system memory.
+에포크: 2, 손실: 0.01375169213861227, 정확도: 99.58537292480469, 테스트 손실: 0.09730229526758194, 테스트 정확도: 98.32500457763672
+에포크: 3, 손실: 0.009699814952909946, 정확도: 99.70709991455078, 테스트 손실: 0.1057872325181961, 테스트 정확도: 98.38667297363281
+에포크: 4, 손실: 0.0074858283624053, 정확도: 99.77407836914062, 테스트 손실: 0.11443363130092621, 테스트 정확도: 98.44750213623047
+에포크: 5, 손실: 0.0061472333036363125, 정확도: 99.81552124023438, 테스트 손실: 0.13342371582984924, 테스트 정확도: 98.39399719238281
+에포크: 6, 손실: 0.0052925883792340755, 정확도: 99.8421630859375, 테스트 손실: 0.14675529301166534, 테스트 정확도: 98.3883285522461
+에포크: 7, 손실: 0.004622295964509249, 정확도: 99.8623046875, 테스트 손실: 0.15860973298549652, 테스트 정확도: 98.37857055664062
+에포크: 8, 손실: 0.004144787322729826, 정확도: 99.87692260742188, 테스트 손실: 0.1658908724784851, 테스트 정확도: 98.39624786376953
+에포크: 9, 손실: 0.0036860702093690634, 정확도: 99.89051055908203, 테스트 손실: 0.1719430834054947, 테스트 정확도: 98.42222595214844
+에포크: 10, 손실: 0.0033174632117152214, 정확도: 99.90145874023438, 테스트 손실: 0.17807525396347046, 테스트 정확도: 98.44599914550781
+Execution time
+694.3785247802734

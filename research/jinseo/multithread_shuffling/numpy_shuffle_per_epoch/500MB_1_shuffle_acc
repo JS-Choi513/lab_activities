@@ -1,0 +1,32 @@
+2021-07-08 19:54:31.393222: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1418] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 2276 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1650, pci bus id: 0000:01:00.0, compute capability: 7.5)
+1 Physical GPUs, 1 Logical GPUs
+shuffling time 1.5043349266052246
+2021-07-08 19:54:33.133262: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-07-08 19:54:33.154772: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 3000000000 Hz
+2021-07-08 19:54:33.247224: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudnn.so.8
+2021-07-08 19:54:34.017090: I tensorflow/stream_executor/cuda/cuda_dnn.cc:359] Loaded cuDNN version 8200
+2021-07-08 19:54:35.137998: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublas.so.11
+2021-07-08 19:54:36.109339: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublasLt.so.11
+에포크: 1, 손실: 0.047494322061538696, 정확도: 98.554443359375, 테스트 손실: 0.059453658759593964, 테스트 정확도: 98.3699951171875
+shuffling time 1.5168511867523193
+에포크: 2, 손실: 0.026898128911852837, 정확도: 99.1718521118164, 테스트 손실: 0.06626307964324951, 테스트 정확도: 98.45999908447266
+shuffling time 1.527796983718872
+에포크: 3, 손실: 0.019055237993597984, 정확도: 99.41024780273438, 테스트 손실: 0.07340321689844131, 테스트 정확도: 98.45999908447266
+shuffling time 1.5239181518554688
+에포크: 4, 손실: 0.014748581685125828, 정확도: 99.5428695678711, 테스트 손실: 0.08235207200050354, 테스트 정확도: 98.47000122070312
+shuffling time 1.5314407348632812
+에포크: 5, 손실: 0.012180694378912449, 정확도: 99.6235580444336, 테스트 손실: 0.08337818086147308, 테스트 정확도: 98.51200103759766
+shuffling time 1.520857572555542
+에포크: 6, 손실: 0.010315191000699997, 정확도: 99.6810531616211, 테스트 손실: 0.08975540101528168, 테스트 정확도: 98.51333618164062
+shuffling time 1.5157785415649414
+에포크: 7, 손실: 0.008999374695122242, 정확도: 99.72174835205078, 테스트 손실: 0.09827732294797897, 테스트 정확도: 98.50714111328125
+shuffling time 1.532959222793579
+에포크: 8, 손실: 0.008049091324210167, 정확도: 99.75129699707031, 테스트 손실: 0.10503551363945007, 테스트 정확도: 98.49250030517578
+shuffling time 1.529250144958496
+에포크: 9, 손실: 0.007311747409403324, 정확도: 99.77555084228516, 테스트 손실: 0.11078406125307083, 테스트 정확도: 98.4977798461914
+shuffling time 1.5244572162628174
+에포크: 10, 손실: 0.006687779910862446, 정확도: 99.79573822021484, 테스트 손실: 0.11788645386695862, 테스트 정확도: 98.49600219726562
+Execution time
+372.31834077835083
+Execution complete
+
